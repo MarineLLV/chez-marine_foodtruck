@@ -6,6 +6,6 @@ from .models import Food
 # /menu
 def index(request):
     foods = Food.objects.all()
-    foods_names = [food.name for food in foods]
-    foods_names_str = ", ".join(foods_names)
-    return HttpResponse("Les galettes : " + foods_names_str)
+    foods_names_and_prices = [food.name + " : " + str(food.price) + "€" for food in foods]
+    foods_names_and_prices_str = ", ".join(foods_names_and_prices)
+    return HttpResponse("Les galettes : " + foods_names_and_prices_str)
