@@ -8,10 +8,9 @@
     <h1>La carte</h1>
 
     <ul>
-        <li> Galette 1</li>
-        <li> Galette 2</li>
-        <li> Galette 3</li>
-        <li> Galette 4</li>
+        {% for food in foods %}
+        <li> {{ food.name }}</li>
+        {% endfor %}
     </ul>
 
 </body>
