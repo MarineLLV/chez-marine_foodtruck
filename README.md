@@ -2,7 +2,7 @@
 
 ## Outils
 - Python 3
-- Django
+- Django 4
 - Bootstrap 5
 ***
 ![Viens faire des galettes bretonnes!](viens-faire-des-galettes.gif)
