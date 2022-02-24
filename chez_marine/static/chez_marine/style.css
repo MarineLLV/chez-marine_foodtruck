@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./Assets/bretatgne-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(125, 196, 255);
+}
+
+#welcome {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: whitesmoke;
+}
+
+#welcome h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+div h1,
+div h2 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(5, 48, 97);
+}
+
+.btn:hover {
+  color: rgb(149, 162, 175);
+  background-color: whitesmoke;
+}
+
+.greyContainer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 48, 97);
+  border-radius: 0.5rem;
+}
+
+.blueContainer {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+}
+
+.blueContainer h1 {
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.greyContainer h1 {
+  border-bottom: 4px solid rgb(5, 48, 97);
+}
+
+.blueBorder {
+  border: 5px solid rgb(125, 196, 255);
+  border-radius: 0.5rem;
+}
+
+.card {
+  border: 5px solid rgb(125, 196, 255);
+}
+
+.card-header {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: rgb(255, 255, 255);
+}
+
+.cardProducts {
+  background-color: rgba(192, 214, 240, 0.609);
+}
+
+.accordion-item {
+  background-color: rgb(255, 255, 255);
+}
+
+.accordion-button {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: rgb(255, 255, 255);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: rgb(255, 255, 255);
+}
+
+.badge {
+  background-color: rgb(5, 48, 97);
+  padding-top: 0.4rem;
+  border-radius: 50%;
+}
+
+.whiteSoloTitle {
+  color: rgb(255, 255, 255);
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+figcaption {
+  color: rgb(5, 48, 97);
+}
+
+.page-link {
+  border: 1px solid rgba(5, 48, 97, 0.938);
+}
+
+.page-item.active .page-link {
+  background-color: rgba(5, 48, 97, 0.938);
+  color: rgb(255, 255, 255);
+}
+
+.form-check-input:checked {
+  background-color: rgb(5, 48, 97);
+  border-color: #0d6efd;
+}
+
+.form-control {
+  border: 1px solid rgb(5, 48, 97);
+}
+
+.form-select {
+  border: 1px solid rgb(5, 48, 97);
+}
+
+footer {
+  background-color: rgb(125, 196, 255);
+}
